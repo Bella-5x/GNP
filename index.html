@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div id="loader">
+        <div class="cont">
+            <span style="--i:1"></span>
+            <span style="--i:16"></span>
+            <span style="--i:10"></span>
+            <span style="--i:5"></span>
+            <span style="--i:14"></span>
+            <span style="--i:6"></span>
+            <span style="--i:11"></span>
+            <span style="--i:8"></span>
+            <span style="--i:15"></span>
+            <span style="--i:2"></span>
+            <span style="--i:18"></span>
+            <span style="--i:13"></span>
+            <span style="--i:9"></span>
+            <span style="--i:4"></span>
+            <span style="--i:17"></span>
+            <span style="--i:7"></span>
+            <span style="--i:12"></span>
+            <span style="--i:19"></span>
+            <span style="--i:3"></span>
+    
+        </div>
+        <p id="loading">Setting things up...</p>
+    
+        <div class="fun" data-text="Bella">
+            <span style="--j:1">B</span>
+            <span style="--j:2">E</span>
+            <span style="--j:3">L</span>
+            <span style="--j:4">L</span>
+            <span style="--j:5">A</span>
+        </div>
+    </div>
+
+<div id="game">
+    
+    <h1 id="top-text">Enter a 3 digit positive number</h1>
+
+    <div class="input-cont">
+        <input type="text" id="guess" autofocus="true" placeholder="Eg: 258" maxlength="3" minlength="3">
+        <span>
+            <div id="submit" class="input-btn" >GO</div>
+            <div id="del" class="input-btn" onclick="del();">Del</div>
+        </span>
+    </div>
+
+
+
+    <div class="trials-cont">
+        <div class="prev-trails">
+            <div class="trials-label">
+                <h1 copy>Guess</h1>
+            </div>
+                <div id="guess-trials" class="trials">
+
+                </div>
+        </div>
+
+        <div class="prev-trails">
+            <div class="trials-label">
+                <h1>Number</h1>
+            </div>
+                <div id="number-trials" class="trials">
+
+                </div>
+        </div>
+
+        <div class="prev-trails">
+            <div class="trials-label">
+                <h1>Position</h1>
+            </div>
+                <div id="position-trials" class="trials">
+
+                </div>
+        </div>
+
+    </div>
+
+    <div id=msg-cont>
+        <div id="msg">
+            <div id="title-top">
+                <span id="title">Error</span>
+                <span id="close">&times;</span>
+            </div>
+            <div id="content">No repeat please</div>
+        </div>
+    </div>
+
+    <div id="effect1"></div>
+    <div id="effect2"></div>
+
+</div>
+
+
+</body>
+</html>
